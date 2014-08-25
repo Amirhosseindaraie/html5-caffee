@@ -7,8 +7,8 @@ This project is the product of many years of iterative development and combined 
 
 ##Quick start
 Choose one of the following options:
-1. Download the latest stable release from html5caffee.ir or a custom build from Initializr.
-2. Clone the git repo — git clone https://github.com/Amirhosseindaraie/html5-caffee.git
++ Download the latest stable release from html5caffee.ir or a custom build from Initializr.
++ Clone the git repo — git clone https://github.com/Amirhosseindaraie/html5-caffee.git
 
 ##Features
 + ready. Use the new elements with confidence.
