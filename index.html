@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML 5 Caffee</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- apple touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/path/to/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/path/to/favicon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/path/to/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/path/to/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/path/to/favicon-57.png">
+    <link rel="icon" href="/path/to/favicon-32.png" sizes="32x32">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <!-- startup image -->
+    <link rel="apple-touch-startup-image" href="img/startup_screen-320x460.png" />
+    <link rel="apple-touch-startup-image" sizes="1024x748" href="img/startup_screen-1024x748.png" />
+    <link rel="apple-touch-startup-image" sizes="768x1004" href="img/startup_screen-768x1004.png" />
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/framwork/trunk.css">
+    
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='js/vendor/jquery-1.9.js'" + 
+                                                                "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+   
+    <!-- linking to the frameworks : trunk.js, Modernizer, html5shiv -->
+    <script src="js/framework/html5shiv.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/framework/trunk.js"></script>
+    
+</head>
+<body>
+    
+<div class="container">
+
+	<header class="slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+		<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+			<li></li><li></li><li></li>
+		</ul>
+		<h1>HTML 5 Caffee</h1>
+	</header>
+
+	<nav class="slide">
+		<ul>
+			<li><a href="index.html" class="active">HOME</a></li>
+			<li><a href="#">LINK TWO</a></li>
+			<li><a href="#">LINK THREE</a></li>
+			<li><a href="#">LINK FOUR</a></li>
+			<li><a href="#">LINK FIVE</a></li>
+			<li><a href="#">LINK SIX</a></li>
+			<li><a href="#">LINK SEVEN</a></li>
+		</ul>
+	</nav>
+	
+	<div class="content slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+		<ul class="responsive">
+			<li class="header-section">
+				<p class="placefiller">HEADER</p>
+			</li>
+			<li class="body-section">
+				<p class="placefiller">BODY</p>
+			</li>
+			<li class="footer-section">
+				<p class="placefiller">FOOTER</p>
+			</li>
+		</ul>
+	</div><!-- content slide -->
+	
+</div><!-- container -->
+    
+    <script src="js/vendor/jquery-1.9.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
