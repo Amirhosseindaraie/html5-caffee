@@ -8,7 +8,8 @@ This project is the product of many years of iterative development and combined 
 ##Quick start
 Choose one of the following options:
 + Download the latest stable release from html5caffee.ir or a custom build from Initializr.
-+ Clone the git repo — git clone https://github.com/Amirhosseindaraie/html5-caffee.git
++ Clone the git repo — ```git clone https://github.com/Amirhosseindaraie/html5-caffee.git```
++ Install with bower ```bower install html5caffee```
 
 ##Features
 + ready. Use the new elements with confidence.
@@ -29,17 +30,17 @@ Choose one of the following options:
 + Apple iDevices friendly including apple-touch-icons, startup images, and etc ...
 
 ##Included frameworks and libraries
-+ Inspired from HTML5bp
-+ jquery
-+ truck.js
-+ normalize.css
-+ Modernizr
-+ Markdown
-+ css reset
-+ html5shiv
++ Inspired from [HTML5bp](https://github.com/h5bp/html5-boilerplate)
++ [jquery](http://jquery.com)
++ [truck.js](http://www.roblukedesign.com/trunk/trunk.html)
++ [normalize.css](http://necolas.github.io/normalize.css)
++ [Modernizr](http://modernizr.com)
++ [css reset](http://meyerweb.com/eric/tools/css/reset/)
++ [sass](http://sass-lang.com/)
++ [html5shiv](https://code.google.com/p/html5shiv/)
 
 ##Documentation
-Currently I am working on the full documentations and it would be release as soon as possible.
+Currently I am working on the full documentations and it would release as soon as possible.
 
 ##Contributing
 Anyone and everyone is welcome to contribute. Hundreds of developers have helped make the HTML5 Caffee what it is today.
